@@ -158,8 +158,7 @@
                 "title": "Hello World",
                 "key": "hello_world",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/pdf/hello_word/hello_word.dart",
-                "description": "Generate a new PDF document from scratch",
-                "status": "New"
+                "description": "Generate a new PDF document from scratch"                
             },
             {
                 "type": "sample",
