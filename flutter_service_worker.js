@@ -84,14 +84,14 @@ const RESOURCES = {
 "/assets/images/user_interaction.png": "64bb5e099afb109be06d32932cc12e44",
 "/assets/images/user_interaction.svg": "fa2da0b25caa55621745cd2fac57addc",
 "/assets/images/whatsnew.png": "5f12c9d22f2c679061ef5d7b4e393b68",
-"/assets/lib/sample_details.json": "9f1586b583a60765c554e31841dd3039",
-"/assets/LICENSE": "057b0d9553a21a06a86d25a35f58fb70",
+"/assets/lib/sample_details.json": "c16beb640259de9436433288b59c9572",
+"/assets/LICENSE": "7733981639c3ee9d026661913241d009",
 "/assets/packages/timezone/data/2019c.tzf": "c30345419f70b2dfbabac378d8334460",
 "/favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/index.html": "0197c831e8a32d62eaadc55541336065",
-"/main.dart.js": "183c989fbf070e2dc2685180ce5deec9",
+"/main.dart.js": "60cbfc0072af772b621bd22cff8ed994",
 "/manifest.json": "e0ce32893358312172b53c3721868c70"
 };
 

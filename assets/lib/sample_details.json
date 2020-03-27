@@ -1082,12 +1082,14 @@
                             {
                                 "title": "Add/remove points",
                                 "key": "add_remove_points",
+                                "showInWeb": false,
                                 "description": "Add or remove the data points from a chart using the buttons placed in the sample.",
                                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/dynamic_updates/add_remove_data/add_remove_points.dart"
                             },
                             {
                                 "title": "Add/remove series",
                                 "key": "add_remove_series",
+                                "showInWeb": false,
                                 "description": "Add or remove series from the chart using the buttons placed in the sample.",
                                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/dynamic_updates/add_remove_data/add_remove_series.dart"
                             }
@@ -1101,6 +1103,7 @@
                             {
                                 "title": "Update data source",
                                 "key": "update_data_source",
+                                "showInWeb": false,
                                 "description": "The data source bound to this chart can be changed with random values dynamically, by tapping the button placed in this sample.",
                                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/dynamic_updates/update_data_source/update_data_source.dart"
                             }
