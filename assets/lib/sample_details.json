@@ -134,19 +134,19 @@
                 "type": "sample",
                 "title": "One dimensional",
                 "key": "one_dimensional_types",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/barcodes/one_dimensional/one_dimensional.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/"
             },
             {
                 "type": "sample",
                 "title": "QR Code",
                 "key": "qr_code_generator",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/barcodes/two_dimensional/qr_code.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/"
             },
             {
                 "type": "sample",
                 "title": "Data Matrix",
                 "key": "data_matrix_generator",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/barcodes/data_matrix/data_matrix.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/"
             }
         ]
     },    
@@ -892,7 +892,6 @@
                             {
                                 "title": "Selection zooming",
                                 "key": "selection_zooming",
-                                "showInWeb": false,
                                 "description": "This sample depicts the working of selection zooming. Long press and drag on the chart to select the region for zooming.",
                                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/user_interactions/zooming_panning/selection_zooming.dart"
                             },
@@ -909,7 +908,6 @@
                         "type": "child",
                         "title": "Crosshair",
                         "displayType": "card",
-                        "showInWeb": false,
                         "subItems": [
                             {
                                 "title": "Chart with crosshair",
@@ -1036,7 +1034,6 @@
                             {
                                 "title": "Real-time spline chart",
                                 "key": "real_time_spline_chart",
-                                "showInWeb": false,
                                 "description": "This sample demonstrates the live chart. A new data point is added at the end and a point is removed at the start in certain time interval continuously.",
                                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/dynamic_updates/live_update/real_time_spline_chart.dart"
                             },
@@ -1055,7 +1052,6 @@
                     },
                     {
                         "type": "child",
-                        "showInWeb":false,
                         "title": "Add/Remove Data",
                         "displayType": "card",
                         "subItems": [
@@ -1078,7 +1074,6 @@
                     {
                         "type": "child",
                         "title": "Update Data Source",
-                        "showInWeb": false,
                         "displayType": "card",
                         "subItems": [
                             {
