@@ -528,7 +528,7 @@
                     },
                     {
                         "type": "child",
-                        "title": "100% Stacked Charts",
+                        "title": "Stacked 100 Charts",
                         "displayType": "card",
                         "subItems": [
                             {
