@@ -185,7 +185,7 @@
         "image": "images/cartesian_types.png",
         "status": "Updated",
         "category": "Data Visualization",
-        "controlId": 2,
+        "controlId": 1,
         "subItems": [
             {
                 "type": "parent",
@@ -1102,7 +1102,7 @@
         "description": "Demos of various circular chart types including pie and doughnut",
         "image": "images/circle_series.png",
         "category": "Data Visualization",
-        "controlId": 3,
+        "controlId": 2,
         "subItems": [
             {
                 "type": "parent",
