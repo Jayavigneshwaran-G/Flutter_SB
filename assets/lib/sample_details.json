@@ -860,11 +860,13 @@
                     {
                         "type": "child",
                         "title": "Tooltip",
+                        "showInWeb": false,
                         "displayType": "card",
                         "subItems": [
                             {
                                 "title": "Default tooltip",
                                 "key": "default_tooltip",
+                                "showInWeb": false,
                                 "description": "Tooltip is enabled in this sample and to see a tooltip in action, tap the data points in the chart.",
                                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/user_interactions/tooltip/default_tooltip.dart",
                                 "sourceLink": "https://www.indexmundi.com/g/g.aspx?v=72&c=gm&c=mx&l=en",
@@ -874,6 +876,7 @@
                                 "title": "Tooltip position",
                                 "description": "By changing the options, the tooltip can be made to display in the fixed location or at the pointer location itself.",
                                 "key": "tooltip_position",
+                                "showInWeb": false,
                                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/user_interactions/tooltip/tooltip_position.dart"
                             }
                         ]

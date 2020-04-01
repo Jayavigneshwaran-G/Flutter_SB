@@ -85,14 +85,14 @@ const RESOURCES = {
 "/assets/images/user_interaction.png": "64bb5e099afb109be06d32932cc12e44",
 "/assets/images/user_interaction.svg": "fa2da0b25caa55621745cd2fac57addc",
 "/assets/images/whatsnew.png": "5f12c9d22f2c679061ef5d7b4e393b68",
-"/assets/lib/sample_details.json": "d42495758e1b736b90fa15a2c0f45c74",
-"/assets/LICENSE": "057b0d9553a21a06a86d25a35f58fb70",
+"/assets/lib/sample_details.json": "78905253e5de5723bf7be9a0490b5e47",
+"/assets/LICENSE": "41399fecbe212567ab7994bb00f69d7f",
 "/assets/packages/timezone/data/2019c.tzf": "c30345419f70b2dfbabac378d8334460",
 "/favicon.png": "0ff0e0cdd689c586ae5c1aa7ac7c9dcb",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "/index.html": "52a87d4bd281ddbe2e459aea298cc740",
-"/main.dart.js": "32689d37cdac0e12b87fff619b4c07e5",
+"/main.dart.js": "fda2736cdbedcf283d197656af3e12fa",
 "/manifest.json": "e0ce32893358312172b53c3721868c70"
 };
 
