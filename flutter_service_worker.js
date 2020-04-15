@@ -88,14 +88,14 @@ const RESOURCES = {
 "/assets/images/user_interaction.png": "64bb5e099afb109be06d32932cc12e44",
 "/assets/images/user_interaction.svg": "fa2da0b25caa55621745cd2fac57addc",
 "/assets/images/whatsnew.png": "5f12c9d22f2c679061ef5d7b4e393b68",
-"/assets/lib/sample_details.json": "06a54b87ef0b3092aa16b47eb65c9a41",
-"/assets/LICENSE": "f05dbbc81cee6ddfcd5dc063f6ae32d7",
+"/assets/lib/sample_details.json": "0e6eaba1fa49cfcfeb95ac8042850e45",
+"/assets/LICENSE": "3972c65bb7cf544e6ebb9b07597d9ad8",
 "/assets/packages/timezone/data/2019c.tzf": "c30345419f70b2dfbabac378d8334460",
 "/favicon.png": "0ff0e0cdd689c586ae5c1aa7ac7c9dcb",
 "/icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "/icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"/index.html": "52a87d4bd281ddbe2e459aea298cc740",
-"/main.dart.js": "e6f9b1d9c6f34f3a483789dcd193e218",
+"/index.html": "dbe8cfe0c7f6479a6c3e59b3888f2117",
+"/main.dart.js": "823742d4cbee168a35b6c8e949838a34",
 "/manifest.json": "e0ce32893358312172b53c3721868c70"
 };
 
