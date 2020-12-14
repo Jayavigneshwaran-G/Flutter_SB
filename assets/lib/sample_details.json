@@ -731,7 +731,7 @@
                 "title": "Maximum width for labels",
                 "key": "chart_maximum_label_width",
                 "status": "New",
-                "description": "The maximum width of an axis label is specified by the maximumLabelWidth property. The labelsExtent property specifies the maximum width to be occupied by an axis. A tooltip for the trimmed label will be shown while clicking/tapping in both cases.",
+                "description": "Maximum width for axis labels can be specified using the maximumLabelWidth property. The maximum space occupied by the axis labels can be changed using the labelsExtent property. A tooltip will be shown on clicking/tapping the trimmed axis label in both cases.",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/axis_features/maximum_label_width.dart",
                 "sourceLink": "https://www.emporis.com/statistics/worlds-tallest-buildings",
                 "sourceText": "www.emporis.com",
@@ -1041,10 +1041,10 @@
                     "needsPropertyPanel": true
                   },
                   {
-                    "title": "Trackball with tooltip template",
+                    "title": "Customized trackball",
                     "key": "chart_with_trackball_template",
                     "status": "New",
-                    "description": "The trackball tooltip template is enabled in this sample. Tap the chart to show the trackball and drag the chart to change the position of the trackball continuously. On the web, you can move the cursor over the chart area to display the trackball.",
+                    "description": "This example displays a custom widget as the trackball. To see the customized trackball, tap the chart area in mobile and hover the chart area on the web.",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/user_interactions/trackball_template.dart",
                     "needsPropertyPanel": true
                   }
@@ -1086,7 +1086,7 @@
                     "title": "Navigation with events",
                     "key": "navigate_with_events",
                     "status": "New",
-                    "description": "Tap/click on the axis label, data point, or data label for navigating to a link.",
+                    "description": "Tap/click on the axis labels, data points or on the data labels for navigating to an external link.",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/axis_features/maximum_label_width.dart",
                     "sourceLink": "https://www.emporis.com/statistics/worlds-tallest-buildings",
                     "sourceText": "www.emporis.com"
@@ -1095,16 +1095,15 @@
               },
               {
                 "type": "child",
-                "title": "Drilldown",
-                "status": "New",
+                "title": "Add a point on click",
                 "displayType": "tab",
                 "subItems": [
                   {
-                    "title": "Drilldown",
-                    "key": "drilldown",
+                    "title": "Add a point on click",
                     "status": "New",
-                    "description": "This sample illustrates how column and line charts can be drilled down. To know about the monthly revenue in a year, click on the column, then click on the line chart markers to know about the weekly revenue in a month.",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/user_interactions/drilldown.dart"
+                    "description": "This example depicts the pixel to data point conversion feature. Tap/click on the chart area to add a data point dynamically on that location.",
+                    "key": "chart_interactivity",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/user_interactions/tooltip/tooltip_template.dart"
                   }
                 ]
               }
@@ -1227,13 +1226,19 @@
               },
               {
                 "type": "child",
-                "title": "Interactive Chart",
-                "displayType": "tab",
+                "title": "Add Data Points",
+                "displayType": "card",
                 "subItems": [
                   {
-                    "title": "Interactive Chart",
+                    "title": "Programmatic",
+                    "key": "add_remove_points",
+                    "description": "Add or remove the data points from a chart using the buttons placed in the sample.",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/real_time_charts/add_remove_data/add_remove_points.dart"
+                  },
+                  {
+                    "title": "Interaction",
                     "status": "New",
-                    "description": "This example displays a custom widget as the tooltip. To see the tooltip template, tap the data points in mobile and hover the data points in the web.",
+                    "description": "This example depicts the pixel to data point conversion feature. Tap/click on the chart area to add a data point dynamically on that location.",
                     "key": "chart_interactivity",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/user_interactions/tooltip/tooltip_template.dart"
                   }
@@ -1241,15 +1246,9 @@
               },
               {
                 "type": "child",
-                "title": "Add/Remove Data",
-                "displayType": "card",
+                "title": "Add/Remove Series",
+                "displayType": "tab",
                 "subItems": [
-                  {
-                    "title": "Add/remove points",
-                    "key": "add_remove_points",
-                    "description": "Add or remove the data points from a chart using the buttons placed in the sample.",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/real_time_charts/add_remove_data/add_remove_points.dart"
-                  },
                   {
                     "title": "Add/remove series",
                     "key": "add_remove_series",
@@ -1293,7 +1292,7 @@
         "title": "Circular Charts",
         "description": "Visualize the data using pie, doughnut, and radial bar charts",
         "image": "images/circle_series.png",
-        "status": "Updated",
+        "status": "",
         "controlId": 2,
         "subItems": [
           {
@@ -1442,13 +1441,6 @@
                 "description": "This sample depicts the dynamic selection feature achieved using the 'selectDataPoints' public method. Choose the point index from the dropdown to select or unselect the data points.",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/user_interactions/dynamic_selection.dart",
                 "needsPropertyPanel": true
-              },
-              {
-                "title": "Drilldown",
-                "status": "New",
-                "key": "circular_drilldown",
-                "description": "This sample illustrates how the pie and doughnut chart drilldown can be accomplished.",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/user_interactions/column_drilldown.dart"
               }
             ]
           },
@@ -1906,7 +1898,7 @@
                 "title": "Arcs and Lines",
                 "status": "New",
                 "key": "arcs",
-                "description": "This sample demonstrates how the arc layer and the line layer can be used for denoting the air routes between the different locations.",
+                "description": "This sample demonstrates how the arc layer and the line layer can be used for denoting the air routes between different locations.",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/vector_layer/arcs.dart",
                 "needsPropertyPanel": true
               },
@@ -1915,7 +1907,7 @@
                 "title": "Polylines",
                 "status": "New",
                 "key": "polylines",
-                "description": "This sample demonstrates how the polyline layer can be used for denoting the road routes between the two locations.",
+                "description": "This sample demonstrates how the polyline layer can be used for denoting the road routes between two locations.",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/vector_layer/polylines.dart"
               }
             ]
@@ -1924,7 +1916,7 @@
       },
       {
         "title": "Circular ProgressBar",
-        "description": "Designed using Radial Gauge widget. Indicates the progress of a task with customizable visuals",
+        "description": "Indicates the progress of a task with customizable visuals. Designed using Radial Gauge widget.",
         "image": "images/circular_progress_bar.png",
         "displayType": "tab",
         "controlId": 8,
@@ -1969,46 +1961,43 @@
         ]
       },
       {
-        "title": "Sparkline Charts",
-        "description": "Simple chart with line, column, area and winloss series",
+        "title": "Spark/Micro Charts",
+        "description": "Light-weight line, area, column and win-loss charts which fits in a very small area.",
         "image": "images/sparkline_winloss.png",
         "displayType": "tab",
-        "status": "Preview",
+        "status": "New",
         "controlId": 9,
         "subItems": [
           {
             "type": "sample",
             "title": "Chart Types",
             "key": "sparkline_series",
-            "status": "New",
             "codeLink": ""
           },
           {
             "type": "sample",
             "title": "Axis Types",
             "key": "sparkline_axis",
-            "status": "New",
             "codeLink": ""
           },
           {
             "type": "sample",
             "title": "Customization",
             "key": "sparkline_customization",
-            "status": "New",
+            "description" : "This example depicts various useful features available in Spark charts. Enable the marker, data label, trackball, range band and also change the axis value with the options in the properties panel.",
             "needsPropertyPanel": true
           },
           {
             "type": "sample",
             "title": "Sparkline in Grid",
             "key": "sparkline_grid",
-            "status": "New",
+            "description" : "This example depicts the rendering of Syncfusion Flutter Spark Charts in the cells of the Syncfusion Flutter Data Grid widget.",
             "codeLink": ""
           },
           {
             "type": "sample",
             "title": "Live Update",
             "key": "sparkline_live_update",
-            "status": "New",
             "codeLink": ""
           }
         ]
@@ -2157,15 +2146,21 @@
           },
           {
             "type": "child",
-            "title": "Load More",
+            "title": "Load More Behavior",
             "subItems": [
+              {
+                "type": "sample",
+                "title": "Infinite Scrolling",
+                "key": "load_more_infinite_scrolling_datagrid",
+                "status": "New",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/loadmore/datagrid_infinite_scrolling.dart"
+              },
               {
                 "type": "sample",
                 "title": "Load More",
                 "key": "load_more_datagrid",
                 "status": "New",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/loadmore/datagrid_load_more.dart",
-                "needsPropertyPanel": true
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/loadmore/datagrid_load_more.dart"
               }
             ]
           },
@@ -2245,7 +2240,7 @@
           },
           {
             "type": "sample",
-            "title": "Customization",
+            "title": "Event Customization",
             "status": "New",
             "key": "customization_calendar",
             "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/calendar/customization.dart"
@@ -2319,9 +2314,8 @@
           },
           {
             "type": "sample",
-            "title": "Customization",
+            "title": "Cell Customization",
             "key": "customized_picker",
-            "status": "Updated",
             "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/date_picker/customization_picker/customized_date_picker.dart"
           },
           {
@@ -2659,7 +2653,6 @@
           {
             "type": "sample",
             "title": "Default",
-            "status": "Updated",
             "key": "range_selector_default_appearance",
             "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/sliders/range_selector/range_selector_default_appearance.dart"
           },
@@ -2692,9 +2685,9 @@
       },
       {
         "title": "Radial Slider",
-        "description": "Select a  numeric value in radial scale",
+        "description": "Selects a numeric value in a radial scale. Designed using Radial Gauge widget.",
         "image": "images/radial_slider.png",
-        "status": "New",
+        "status": "Updated",
         "category": "Sliders",
         "displayType": "tab",
         "controlId": 4,
@@ -2770,9 +2763,9 @@
       },
       {
         "title": "Radial Range Slider",
-        "description": "Select a  numeric value range in radial scale",
+        "description": "Selects a numeric range in a radial scale. Designed using Radial Gauge widget.",
         "image": "images/radial_range_slider.png",
-        "status": "New",
+        "status": "Updated",
         "category": "Sliders",
         "displayType": "tab",
         "controlId": 5,
