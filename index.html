@@ -86,9 +86,15 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
-        navigator.serviceWorker.register('flutter_service_worker.js?v=3854421151');
+        navigator.serviceWorker.register('flutter_service_worker.js?v=3706719923');
       });
     }
+  </script>
+  <!-- This script installs pdf.min.js to render the PDF page as an image in the
+    application and load in syncfusion_flutter_pdfviewer widget -->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js"></script>
+  <script type="text/javascript">
+    pdfjsLib.GlobalWorkerOptions.workerSrc = "//cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.worker.min.js";
   </script>
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
