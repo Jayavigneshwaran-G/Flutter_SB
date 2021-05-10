@@ -355,7 +355,12 @@
                   {
                     "title": "Customized bar chart",
                     "key": "customized_bar_chart",
-                    "showInWeb": false,
+                    "platformsToHide": [
+                      "linux",
+                      "macOS",
+                      "windows",
+                      "web"
+                    ],
                     "description": "This sample demonstrates the rendering of custom bars. Here, the bars are filled with images, to look like  pattern fill.",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/bar/customized_bar_chart.dart",
                     "sourceLink": "https://www.makeuseof.com/tag/most-popular-android-apps/",
@@ -1432,12 +1437,22 @@
             "type": "child",
             "title": "Exporting",
             "displayType": "tab",
-            "showInWeb": false,
+            "platformsToHide": [
+              "linux",
+              "macOS",
+              "windows",
+              "web"
+            ],
             "subItems": [
               {
                 "title": "Export",
                 "key": "exporting_chart",
-                "showInWeb": false,
+                "platformsToHide": [
+                  "linux",
+                  "macOS",
+                  "windows",
+                  "web"
+                ],
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/export.dart"
               }
             ]
@@ -1503,14 +1518,14 @@
                     "title": "Image fill",
                     "key": "pie_with_imageShader",
                     "status": "new",
-                    "description":"This sample demonstrates how to fill the pie slices with various images for each slice using the 'ImageShader'.",
+                    "description": "This sample demonstrates how to fill the pie slices with various images for each slice using the 'ImageShader'.",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/pie/pie_with_image.dart"
                   },
                   {
                     "title": "Point render mode",
                     "key": "pie_point_render_mode",
                     "status": "new",
-                    "description":"This sample demonstrates how to fill the pie slices with various images for each slice using the 'ImageShader'.",
+                    "description": "This sample demonstrates how to fill the pie slices with various images for each slice using the 'ImageShader'.",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/pie/point_render_mode.dart",
                     "needsPropertyPanel": true
                   }
@@ -1553,7 +1568,7 @@
                   {
                     "title": "Gradient fill",
                     "key": "doughnut_with_gradient",
-                    "description":"This sample demonstrates how to apply different types of gradient to the doughnut slices. Here you can apply the linear, sweep, and radial gradients using the dropdown menu in the property panel.",
+                    "description": "This sample demonstrates how to apply different types of gradient to the doughnut slices. Here you can apply the linear, sweep, and radial gradients using the dropdown menu in the property panel.",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/doughnut/doughnut_with_gradient.dart",
                     "status": "new",
                     "needsPropertyPanel": true
@@ -1642,13 +1657,23 @@
             "type": "child",
             "title": "Exporting",
             "displayType": "tab",
-            "showInWeb": false,
+            "platformsToHide": [
+              "linux",
+              "macOS",
+              "windows",
+              "web"
+            ],
             "subItems": [
               {
                 "title": "Export",
                 "key": "export_circular_chart",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/export.dart",
-                "showInWeb": false
+                "platformsToHide": [
+                  "linux",
+                  "macOS",
+                  "windows",
+                  "web"
+                ]
               }
             ]
           }
@@ -1936,13 +1961,23 @@
             "type": "child",
             "title": "Exporting",
             "displayType": "tab",
-            "showInWeb": false,
+            "platformsToHide": [
+              "linux",
+              "macOS",
+              "windows",
+              "web"
+            ],
             "subItems": [
               {
                 "type": "sample",
                 "title": "Export",
                 "key": "export_gauge",
-                "showInWeb": false,
+                "platformsToHide": [
+                  "linux",
+                  "macOS",
+                  "windows",
+                  "web"
+                ],
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/gauge/export/export.dart"
               }
             ]
@@ -2344,7 +2379,7 @@
         "description": "Light-weight line, area, column and win-loss charts which fits in a very small area.",
         "image": "images/sparkline_winloss.png",
         "displayType": "tab",
-        "isBeta":true,
+        "isBeta": true,
         "controlId": 9,
         "subItems": [
           {
@@ -2744,6 +2779,11 @@
     "categoryName": "Viewer",
     "mobileCategoryId": 4,
     "webCategoryId": 4,
+    "platformsToHide": [
+      "linux",
+      "macOS",
+      "windows"
+    ],
     "controlList": [
       {
         "title": "PDF Viewer",
@@ -2887,7 +2927,7 @@
             "key": "attendance_tracker",
             "status": "New",
             "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/xlsio/attendance_tracker/attendance_tracker.dart"
-          }   
+          }
         ]
       }
     ]
