@@ -1981,6 +1981,19 @@
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/gauge/export/export.dart"
               }
             ]
+          },
+          {
+            "type": "child",
+            "title": "Sleep Tracker",
+            "displayType": "tab",
+            "subItems": [
+              {
+                "type": "sample",
+                "title": "Sleep Tracker",
+                "key": "sleep_tracker",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/gauge/pointer_interaction/sleep_tracker.dart"
+              }
+            ]
           }
         ]
       },
@@ -2511,6 +2524,20 @@
                 "title": "Selection",
                 "key": "selection_datagrid",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/selection/datagrid_selection.dart",
+                "needsPropertyPanel": true
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "title": "Column Resizing",
+            "subItems": [
+              {
+                "type": "sample",
+                "title": "Column Resizing",
+                "status": "New",
+                "key": "column_resizing_datagrid",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/columns/datagrid_column_resizing.dart",
                 "needsPropertyPanel": true
               }
             ]
