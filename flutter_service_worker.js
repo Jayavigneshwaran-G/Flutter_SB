@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "6ba557fef222aa5843cc6262035ae9a7",
+  "assets/AssetManifest.json": "7424475df2da4d5373e1934789392425",
 "assets/assets/africa.json": "12417da15bcdb19e7b6d317397be398c",
 "assets/assets/australia.json": "44a78deabd95d71e77e92b831084ea91",
 "assets/assets/chart_data.json": "04e7199ad841fba81e37771a4a435c2c",
@@ -215,8 +215,8 @@ const RESOURCES = {
 "assets/images/range_selector.png": "8808b2b933871fa5c39de6e62613f496",
 "assets/images/range_slider.png": "883635b167755502bfba7893b12c8bdd",
 "assets/images/rectangle_pointer.png": "3040bbaa5c6969a9047beded32863265",
+"assets/images/scroll-arrow-left.png": "424ad58034bf9bb544220543cf98cf71",
 "assets/images/scroll_arrow.png": "4f78325a26c365f3b3fdd0b8105c8534",
-"assets/images/scroll_arrow_left.png": "8aba3f58ea5d0fb70d1ba54ab34c8559",
 "assets/images/September.png": "d9621b5a374fffffb7da28104d265bab",
 "assets/images/shotput.png": "60ced46648353b7dad9377da6b525288",
 "assets/images/SignaturePad.png": "05df6dfbb6fb451d3899b4027506e860",
@@ -258,9 +258,9 @@ const RESOURCES = {
 "googlec03dd4bc003151bc.html": "d8ee63ac530b376c19042286c0935849",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "66c642ca49ca5c712090abe3d9af10ae",
-"/": "66c642ca49ca5c712090abe3d9af10ae",
-"main.dart.js": "04d0b0342bbc06647bdca81a8383a24d",
+"index.html": "b22d57d9062200e65b5019b078168e98",
+"/": "b22d57d9062200e65b5019b078168e98",
+"main.dart.js": "e0c6f87e3a4e6dbc1c205e1787c93232",
 "manifest.json": "e0ce32893358312172b53c3721868c70",
 "naver335c61fba11bdb4a502b86bfe2e8db08.html": "85f86c5a9f9bac1ffe7952c2c28fc294",
 "robots.txt": "5634545ff7f473a66679177c67cdfe40",
