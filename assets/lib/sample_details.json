@@ -1084,6 +1084,20 @@
                     "needsPropertyPanel": true
                   }
                 ]
+              },
+              {
+                "type": "child",
+                "title": "Error Bar",
+                "displayType": "tab",
+                "subItems": [
+                  {
+                    "title": "Error Bar",
+                    "key": "chart_with_error_bar",
+                    "status": "New",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/error_bar.dart",
+                    "needsPropertyPanel": true
+                  }
+                ]
               }
             ]
           },
@@ -2608,6 +2622,7 @@
                 "title": "Column Resizing",
                 "status": "New",
                 "key": "column_resizing_datagrid",
+                "description": "This sample demonstrates how to resize the columns. In the Desktop platforms, resize columns by clicking and dragging the right (left in RTL mode) border of a column header. In the mobile platforms, when the column is long pressed the indicator will be displayed at the right border of a column header, Then, tap and drag the indicator to resize columns.",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/columns/datagrid_column_resizing.dart",
                 "needsPropertyPanel": true
               }
@@ -2684,6 +2699,22 @@
                 "title": "Pull To Refresh",
                 "key": "pull_to_refresh_datagrid",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/pull_to_refresh/datagrid_pull_to_refresh.dart"
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "title": "Context Menu",
+            "platformsToHide": [
+              "web"
+            ],
+            "subItems": [
+              {
+                "type": "sample",
+                "title": "Context Menu",
+                "description": "This sample demonstrates how to show a context menu when a cell is long pressed in mobile platforms and right clicked in desktop platforms.",
+                "key": "context_menu_datagrid",
+                "status": "New"
               }
             ]
           },
