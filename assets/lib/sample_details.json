@@ -38,7 +38,6 @@
         "description": "Visualize hierarchically structured data that is sized and colored by quantitative variables",
         "image": "images/treemap.png",
         "displayType": "tab",
-        "status": "Updated",
         "isBeta": true,
         "controlId": 4,
         "subItems": [
@@ -56,14 +55,12 @@
                 "type": "sample",
                 "title": "Slice",
                 "key": "slice_treemap_flat",
-                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/treemap/flat/flat.dart"
               },
               {
                 "type": "sample",
                 "title": "Dice",
                 "key": "dice_treemap_flat",
-                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/treemap/flat/flat.dart"
               }
             ]
@@ -76,7 +73,6 @@
                 "type": "sample",
                 "title": "Hierarchical",
                 "key": "squarified_treemap_hierarchical",
-                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/treemap/hierarchical/hierarchical.dart",
                 "needsPropertyPanel": true
               }
@@ -126,7 +122,6 @@
                 "type": "sample",
                 "title": "Drilldown",
                 "key": "squarified_treemap_drilldown",
-                "status": "New",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/treemap/drilldown/drilldown.dart"
               }
             ]
@@ -852,7 +847,6 @@
               {
                 "title": "Interval type",
                 "key": "interval_type",
-                "status": "New",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/axis_features/interval_type.dart",
                 "needsPropertyPanel": true
               },
@@ -931,6 +925,20 @@
             "type": "parent",
             "title": "Series Features",
             "subItems": [
+              {
+                "type": "child",
+                "title": "Error Bar",
+                "displayType": "tab",
+                "subItems": [
+                  {
+                    "title": "Error Bar",
+                    "key": "chart_with_error_bar",
+                    "status": "New",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/error_bar.dart",
+                    "needsPropertyPanel": true
+                  }
+                ]
+              },
               {
                 "type": "child",
                 "title": "Gradient",
@@ -1084,20 +1092,6 @@
                     "needsPropertyPanel": true
                   }
                 ]
-              },
-              {
-                "type": "child",
-                "title": "Error Bar",
-                "displayType": "tab",
-                "subItems": [
-                  {
-                    "title": "Error Bar",
-                    "key": "chart_with_error_bar",
-                    "status": "New",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/error_bar.dart",
-                    "needsPropertyPanel": true
-                  }
-                ]
               }
             ]
           },
@@ -1113,7 +1107,6 @@
               },
               {
                 "title": "Legend with various options",
-                "status": "Updated",
                 "key": "cartesian_legend_various_options",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/legend/legend_various_options.dart",
                 "needsPropertyPanel": true
@@ -1223,7 +1216,6 @@
                   {
                     "title": "Selection modes",
                     "key": "selection_modes",
-                    "status": "Updated",
                     "description": "This sample depicts the selection feature in the chart. In mobile, tap the data points and on web/desktop click the data points to select or deselect them.",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/user_interactions/selection/selection_modes.dart",
                     "needsPropertyPanel": true
@@ -1245,7 +1237,6 @@
                   {
                     "title": "Data point events",
                     "key": "data_points",
-                    "status": "New",
                     "description": "Tap on a data point to display additional information in the snack bar. Double-tap on it to navigate to that site and long press on it to get the sorting options. This is achieved by using the onPointTap, onPointDoubleTap and onPointLongPress callbacks.",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/user_interactions/events/data_point_events.dart"
                   },
@@ -1314,6 +1305,7 @@
               {
                 "title": "Default rendering",
                 "key": "default_trendlines_with_options",
+                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/trendline/default_trendline.dart",
                 "needsPropertyPanel": true
               },
@@ -1496,7 +1488,6 @@
       },
       {
         "title": "Circular Charts",
-        "status": "Updated",
         "description": "Visualize the data using pie, doughnut, and radial bar charts",
         "image": "images/circle_series.png",
         "controlId": 2,
@@ -1636,7 +1627,6 @@
                   {
                     "title": "Overfilled radial bar",
                     "key": "overfilled_radialbar",
-                    "status": "New",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/radial_bar/overfilled_radial_bar.dart"
                   }
                 ]
@@ -1656,7 +1646,6 @@
               {
                 "title": "Legend with various options",
                 "key": "legend_with_various_options",
-                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/legend/legend_with_various_options.dart",
                 "needsPropertyPanel": true
               }
@@ -1677,7 +1666,6 @@
               {
                 "title": "Selection",
                 "key": "circular_selection",
-                "status": "Updated",
                 "description": "This sample depicts the selection feature in the chart. In mobile, tap the data points and on web/desktop click the data points to select or deselect them.",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/user_interactions/selection.dart",
                 "needsPropertyPanel": true
@@ -1721,7 +1709,6 @@
         "title": "Radial Gauge",
         "description": "Visualize one or multiple measures on a circular scale with pointers and ranges",
         "image": "images/circle_gauge.png",
- 		"status": "Updated",
         "controlId": 4,
         "subItems": [
           {
@@ -1733,7 +1720,6 @@
                 "type": "sample",
                 "title": "Sleep tracker",
                 "key": "sleep_tracker",
-                "status": "New",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/gauge/showcase/sleep_tracker.dart",
                 "description": ""
               },
@@ -2031,6 +2017,7 @@
         "title": "Linear Gauge",
         "description": "Visualize one or multiple measures on a linear scale with pointers and ranges",
         "image": "images/linear_gauge.png",
+        "status":"Updated",
         "controlId": 5,
         "isBeta": true,
         "subItems": [
@@ -2113,6 +2100,7 @@
                 "type": "sample",
                 "title": "Active Hours",
                 "key": "active_hours",
+                "status":"New",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/linear_gauge/showcase/active_hours.dart",
                 "description": ""
               },
@@ -2120,6 +2108,7 @@
                 "type": "sample",
                 "title": "Marker Animation",
                 "key": "animate_marker",
+                "status":"New",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/linear_gauge/showcase/marker_animation.dart",
                 "description": ""
               }
@@ -2308,7 +2297,6 @@
                 "type": "sample",
                 "title": "Legend",
                 "key": "legend",
-                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/shape_layer/legend/legend.dart",
                 "needsPropertyPanel": true
               },
