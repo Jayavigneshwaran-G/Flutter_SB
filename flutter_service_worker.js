@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "7424475df2da4d5373e1934789392425",
+  "assets/AssetManifest.json": "c8be33c536ec5a26bfd14c426bc7bc2a",
 "assets/assets/africa.json": "12417da15bcdb19e7b6d317397be398c",
 "assets/assets/australia.json": "44a78deabd95d71e77e92b831084ea91",
 "assets/assets/chart_data.json": "04e7199ad841fba81e37771a4a435c2c",
@@ -28,6 +28,7 @@ const RESOURCES = {
 "assets/assets/pdf/credit_card_statement.pdf": "bb9cfaf941284cb2e5abcf4da541ca8e",
 "assets/assets/pdf/digital_signature_template.pdf": "a87951b49296547517e23a6ab3d40455",
 "assets/assets/pdf/export_template.pdf": "dcc066c0a52368c55e498d3c876706d4",
+"assets/assets/pdf/f%2523_succinctly_rotated.pdf": "bf40c8474d5b8514c20bd34011373ec6",
 "assets/assets/pdf/flutter_succinctly.pdf": "4a675628446952ed78a3742e5dc5d3c4",
 "assets/assets/pdf/form_template.pdf": "7ce7d2d5ab454ccd0fbe222cc9e9e2ad",
 "assets/assets/pdf/gis_succinctly.pdf": "6b8bdc356b5f1c64a73d1cf4ce0d47d5",
@@ -250,7 +251,7 @@ const RESOURCES = {
 "assets/images/xlsio/liabilities.png": "284b091ce4bf5117779c32e43587c480",
 "assets/images/xlsio.png": "35299393c94bdbcbfa7de8be67b5eaa9",
 "assets/images/youtube.png": "0c781d861a8df15b16ed1ddde3d49535",
-"assets/lib/sample_details.json": "3ea625d4a13a67bb0618acad7c461248",
+"assets/lib/sample_details.json": "bbbc8a1e0eb0d50c3e27da6f29b514a4",
 "assets/NOTICES": "3895a36d53de1f3ff2617e3e5b774b36",
 "assets/packages/timezone/data/2020a.tzf": "84285f1f81b999f1de349a723574b3e5",
 "BingSiteAuth.xml": "5a55635fd2a391bdcad8d0ef1af1a17b",
@@ -258,9 +259,9 @@ const RESOURCES = {
 "googlec03dd4bc003151bc.html": "d8ee63ac530b376c19042286c0935849",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "f41f06934400951f61250a0903d6c0c6",
-"/": "f41f06934400951f61250a0903d6c0c6",
-"main.dart.js": "29fcfcd9807bf2ee7552bd074892ca50",
+"index.html": "e53f42df2e23f2bb1628f8a959ac53b9",
+"/": "e53f42df2e23f2bb1628f8a959ac53b9",
+"main.dart.js": "9954a3f124a2a2fa071a4acf4c6f7580",
 "manifest.json": "e0ce32893358312172b53c3721868c70",
 "naver335c61fba11bdb4a502b86bfe2e8db08.html": "85f86c5a9f9bac1ffe7952c2c28fc294",
 "robots.txt": "5634545ff7f473a66679177c67cdfe40",
