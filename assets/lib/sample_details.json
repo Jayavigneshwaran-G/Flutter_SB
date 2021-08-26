@@ -959,6 +959,12 @@
                 "displayType": "card",
                 "subItems": [
                   {
+                    "title": "Gradient comparison",
+                    "key": "gradient_comparison",
+                    "status": "New",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/gradients/comparison_using_gradient.dart"
+                  },
+                  {
                     "title": "Horizontal gradient",
                     "key": "horizantal_gradient",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/gradients/horizantal_gradient.dart"
@@ -967,11 +973,6 @@
                     "title": "Vertical gradient",
                     "key": "vertical_gradient",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/gradients/vertical_gradient.dart"
-                  },
-                  {
-                    "title": "Gradient comparison",
-                    "key": "gradient_comparison",
-                    "codeLink": ""
                   }
                 ]
               },
@@ -2117,7 +2118,7 @@
               },
               {
                 "type": "sample",
-                "title": "Active Hours",
+                "title": "Active hours",
                 "key": "active_hours",
                 "status": "New",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/linear_gauge/showcase/active_hours.dart",
@@ -2323,7 +2324,9 @@
                 "type": "sample",
                 "title": "Tooltip",
                 "key": "tooltip",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/shape_layer/tooltip/tooltip.dart"
+                "status": "Updated",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/shape_layer/tooltip/tooltip.dart",
+                "needsPropertyPanel": true
               },
               {
                 "type": "sample",
@@ -2365,6 +2368,13 @@
               },
               {
                 "type": "sample",
+                "title": "Fit bounds",
+                "key": "fit_bounds",
+                "status": "New",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/fit_bounds/fit_bounds.dart"
+              },
+              {
+                "type": "sample",
                 "title": "Arcs and Lines",
                 "key": "arcs",
                 "description": "This sample demonstrates how the arc layer and the line layer can be used for denoting the air routes between the different locations.",
@@ -2388,21 +2398,13 @@
               {
                 "type": "sample",
                 "status": "New",
-                "title": "Custom toolbar",
-                "key": "custom_toolbar",
+                "title": "Cross hair",
+                "key": "cross_hair",
                 "platformsToHide": [
                   "android",
                   "iOS"
                 ],
-                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/custom_toolbar/custom_toolbar.dart"
-              },
-              {
-                "type": "sample",
-                "title": "Custom bounds",
-                "key": "custom_bounds",
-                "status": "New",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/custom_bounds/custom_bounds.dart",
-                "needsPropertyPanel": true
+                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/cross_hair/cross_hair.dart"
               }
             ]
           }
@@ -3272,6 +3274,7 @@
                 "type": "sample",
                 "title": "Default",
                 "key": "default_vertical_slider",
+                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/sliders/vertical_slider/basic_features/default_vertical_slider.dart",
                 "description": "",
                 "needsPropertyPanel": true
@@ -3361,6 +3364,7 @@
                 "type": "sample",
                 "title": "Default",
                 "key": "vertical_range_slider_default_appearance",
+                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/sliders/vertical_range_slider/default_appearance/vertical_range_slider_default_appearance.dart",
                 "description": "",
                 "needsPropertyPanel": true
