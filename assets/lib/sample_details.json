@@ -690,6 +690,20 @@
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/waterfall/vertical_waterfall.dart"
                   }
                 ]
+              },
+              {
+                "type": "child",
+                "title": "Error Bar",
+                "displayType": "tab",
+                "subItems": [
+                  {
+                    "title": "Error Bar",
+                    "key": "error_bar",
+                    "status": "New",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/error_bar.dart",
+                    "needsPropertyPanel": true
+                  }
+                ]
               }
             ]
           },
@@ -939,20 +953,6 @@
             "type": "parent",
             "title": "Series Features",
             "subItems": [
-              {
-                "type": "child",
-                "title": "Error Bar",
-                "displayType": "tab",
-                "subItems": [
-                  {
-                    "title": "Error Bar",
-                    "key": "chart_with_error_bar",
-                    "status": "New",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/error_bar.dart",
-                    "needsPropertyPanel": true
-                  }
-                ]
-              },
               {
                 "type": "child",
                 "title": "Gradient",
@@ -2371,7 +2371,8 @@
                 "title": "Fit bounds",
                 "key": "fit_bounds",
                 "status": "New",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/fit_bounds/fit_bounds.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/fit_bounds/fit_bounds.dart",
+                "needsPropertyPanel": true
               },
               {
                 "type": "sample",
@@ -2398,13 +2399,13 @@
               {
                 "type": "sample",
                 "status": "New",
-                "title": "Cross hair",
-                "key": "cross_hair",
+                "title": "Crosshair",
+                "key": "crosshair",
                 "platformsToHide": [
                   "android",
                   "iOS"
                 ],
-                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/cross_hair/cross_hair.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/crosshair/crosshair.dart"
               }
             ]
           }
@@ -2572,6 +2573,12 @@
                 "title": "Stacked Header",
                 "key": "stacked_header_datagrid",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/columns/datagrid_stacked_header.dart"
+              },
+              {
+                "type": "sample",
+                "title": "Checkbox Column",
+                "key": "checkbox_selection_datagrid",
+                "status": "New"
               }
             ]
           },
@@ -2583,7 +2590,6 @@
                 "type": "sample",
                 "title": "Editing",
                 "key": "editing_datagrid",
-                "status": "New",
                 "needsPropertyPanel": true,
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_editing.dart"
               }
@@ -2620,6 +2626,24 @@
                 "key": "selection_datagrid",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_selection.dart",
                 "needsPropertyPanel": true
+              },
+              {
+                "title": "Checkbox Selection",
+                "key": "checkbox_selection_datagrid",
+                "status": "New"
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "title": "Summaries",
+            "subItems": [
+              {
+                "type": "sample",
+                "status": "New",
+                "title": "Summaries",
+                "key": "table_summary_datagrid",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/summaries/datagrid_table_summary.dart"
               }
             ]
           },
@@ -2735,6 +2759,7 @@
                 "type": "sample",
                 "title": "Paging",
                 "key": "paging_datagrid",
+                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_paging.dart"
               }
             ]
@@ -3282,6 +3307,7 @@
               {
                 "type": "sample",
                 "title": "Dividers, labels, and ticks",
+                "status": "Updated",
                 "key": "vertical_slider_divider_label_tick",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/sliders/vertical_slider/basic_features/vertical_slider_divider_label_tick.dart",
                 "description": "",
@@ -3373,6 +3399,7 @@
                 "type": "sample",
                 "title": "Dividers, labels, and ticks",
                 "key": "vertical_range_slider_divider_label_tick",
+                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/sliders/vertical_range_slider/default_appearance/vertical_range_slider_divider_label_tick.dart",
                 "description": "",
                 "needsPropertyPanel": true
@@ -3575,13 +3602,11 @@
         "image": "images/radial_range_slider.png",
         "category": "Sliders",
         "displayType": "tab",
-        "status": "Updated",
         "controlId": 7,
         "subItems": [
           {
             "type": "child",
             "title": "Basic Features",
-            "status": "New",
             "displayType": "tab",
             "subItems": [
               {
@@ -3596,7 +3621,6 @@
                 "type": "sample",
                 "title": "Labels and Ticks",
                 "key": "radial_range_slider_ticks_and_labels",
-                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/radial_range_slider/basic_features/labels_and_ticks.dart",
                 "description": ""
               },
@@ -3612,7 +3636,6 @@
           {
             "type": "child",
             "title": "Customization",
-            "status": "New",
             "displayType": "tab",
             "subItems": [
               {

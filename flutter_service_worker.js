@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "c8be33c536ec5a26bfd14c426bc7bc2a",
+  "assets/AssetManifest.json": "71f03de4581bc775c807cfc31cf754b5",
 "assets/assets/africa.json": "12417da15bcdb19e7b6d317397be398c",
 "assets/assets/australia.json": "44a78deabd95d71e77e92b831084ea91",
 "assets/assets/chart_data.json": "04e7199ad841fba81e37771a4a435c2c",
@@ -86,6 +86,7 @@ const RESOURCES = {
 "assets/images/download.png": "e2a8aec81e5349c08d8dfb80a45fd296",
 "assets/images/environment_day.png": "ea12570e3d0d4a2d19e19eb63bb6d03b",
 "assets/images/February.png": "b4aee4982498ef54b3ea7c5d9a5ffd02",
+"assets/images/flutter_examples.png": "143df8bd4404e2abeb1a99abacf17bc7",
 "assets/images/fullscreen.png": "e3c4c422d6b10eba388749fe454cb11f",
 "assets/images/funnel.png": "5d3d0b84d0446a2f71bf3c75ba41aee4",
 "assets/images/funnel.svg": "37ddb0f18383c3d8717d02915e477f48",
@@ -251,7 +252,7 @@ const RESOURCES = {
 "assets/images/xlsio/liabilities.png": "284b091ce4bf5117779c32e43587c480",
 "assets/images/xlsio.png": "35299393c94bdbcbfa7de8be67b5eaa9",
 "assets/images/youtube.png": "0c781d861a8df15b16ed1ddde3d49535",
-"assets/lib/sample_details.json": "2a26a14de2dffd6f84251ef756184f29",
+"assets/lib/sample_details.json": "5b05c0b02439c45414485b7d64a1122d",
 "assets/NOTICES": "3895a36d53de1f3ff2617e3e5b774b36",
 "assets/packages/timezone/data/2020a.tzf": "84285f1f81b999f1de349a723574b3e5",
 "BingSiteAuth.xml": "5a55635fd2a391bdcad8d0ef1af1a17b",
@@ -259,9 +260,9 @@ const RESOURCES = {
 "googlec03dd4bc003151bc.html": "d8ee63ac530b376c19042286c0935849",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "3005d5bd9e1ee630ef528496481e9cd8",
-"/": "3005d5bd9e1ee630ef528496481e9cd8",
-"main.dart.js": "621e6ab9c0a59b3de8bc741068bb5121",
+"index.html": "214a961908d6aabce2351419eecc9167",
+"/": "214a961908d6aabce2351419eecc9167",
+"main.dart.js": "7a1a9f16f779c601003a279550db5617",
 "manifest.json": "e0ce32893358312172b53c3721868c70",
 "naver335c61fba11bdb4a502b86bfe2e8db08.html": "85f86c5a9f9bac1ffe7952c2c28fc294",
 "robots.txt": "5634545ff7f473a66679177c67cdfe40",
