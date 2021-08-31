@@ -181,6 +181,13 @@
                   },
                   {
                     "type": "sample",
+                    "title": "Line zone",
+                    "key": "line_shader",
+                    "status": "New",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/line/line_zone.dart"
+                  },
+                  {
+                    "type": "sample",
                     "title": "Customized line chart",
                     "key": "customized_line_chart",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/line/customized_line_chart.dart",
@@ -191,12 +198,6 @@
                     "title": "Dynamic update animation",
                     "key": "animation_line_chart",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/line/animation_line_chart.dart"
-                  },
-                  {
-                    "type": "sample",
-                    "title": "Line zone",
-                    "key": "line_shader",
-                    "codeLink": ""
                   }
                 ]
               },
@@ -321,6 +322,13 @@
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/area/vertical_area_chart.dart"
                   },
                   {
+                    "type": "sample",
+                    "title": "Area zone",
+                    "key": "area_shader",
+                    "status": "New",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/area/area_zone.dart"
+                  },
+                  {
                     "title": "Modified axis base",
                     "key": "area_axis_crossing",
                     "description": "This sample is achieved using the axis crossing feature. X-axis 'crossAt' value is set to -2 and hence the data points are rendering from -2. Default axis base value is 0 and on that case, positive points will render upwards and negative points will render downwards.",
@@ -339,12 +347,6 @@
                     "title": "Dynamic update animation",
                     "key": "animation_area_chart",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/area/animation_area_chart.dart"
-                  },
-                  {
-                    "type": "sample",
-                    "title": "Area zone",
-                    "key": "area_shader",
-                    "codeLink": ""
                   }
                 ]
               },
@@ -962,7 +964,9 @@
                     "title": "Gradient comparison",
                     "key": "gradient_comparison",
                     "status": "New",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/gradients/comparison_using_gradient.dart"
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/gradients/comparison_using_gradient.dart",
+                    "sourceLink" : "https://en.climate-data.org/europe/united-kingdom/england/london-1/",
+                    "sourceText": "en.climate-data.org"
                   },
                   {
                     "title": "Horizontal gradient",
@@ -2324,7 +2328,6 @@
                 "type": "sample",
                 "title": "Tooltip",
                 "key": "tooltip",
-                "status": "Updated",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/shape_layer/tooltip/tooltip.dart",
                 "needsPropertyPanel": true
               },
