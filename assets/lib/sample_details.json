@@ -184,7 +184,8 @@
                     "title": "Line zone",
                     "key": "line_shader",
                     "status": "New",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/line/line_zone.dart"
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/line/line_zone.dart",
+                    "description": "This sample is achieved by filling the linear gradient to the line series. Gradient’s color stops are formed based on the zone’s (segments) start and end values. ‘onCreateShader’ callback in ‘SfCartesianChart’ is used to achieve this scenario."
                   },
                   {
                     "type": "sample",
@@ -326,7 +327,8 @@
                     "title": "Area zone",
                     "key": "area_shader",
                     "status": "New",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/area/area_zone.dart"
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/area/area_zone.dart",
+                    "description": "This sample is achieved by filling the linear gradient to the area series. Gradient’s color stops are formed based on the zone’s (segments) start and end values. ‘onCreateShader’ callback in ‘SfCartesianChart’ is used to achieve this scenario."
                   },
                   {
                     "title": "Modified axis base",
@@ -966,7 +968,8 @@
                     "status": "New",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/gradients/comparison_using_gradient.dart",
                     "sourceLink" : "https://en.climate-data.org/europe/united-kingdom/england/london-1/",
-                    "sourceText": "en.climate-data.org"
+                    "sourceText": "en.climate-data.org",
+                    "description": "This sample is achieved by filling all the data points in column series with a linear gradient which is created to the size of the chart’s plot area. ‘onCreateShader’ callback in ‘SfCartesianChart’ is used to achieve this scenario"
                   },
                   {
                     "title": "Horizontal gradient",
@@ -2525,7 +2528,7 @@
                 "type": "sample",
                 "title": "Getting Started",
                 "key": "getting_started_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_getting_started.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/getting_started/datagrid_getting_started.dart"
               }
             ]
           },
@@ -2594,7 +2597,7 @@
                 "title": "Editing",
                 "key": "editing_datagrid",
                 "needsPropertyPanel": true,
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_editing.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/editing/datagrid_editing.dart"
               }
             ]
           },
@@ -2627,7 +2630,7 @@
                 "type": "sample",
                 "title": "Selection",
                 "key": "selection_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_selection.dart",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/selection/datagrid_selection.dart",
                 "needsPropertyPanel": true
               },
               {
@@ -2673,7 +2676,7 @@
                 "type": "sample",
                 "title": "Freeze Panes",
                 "key": "freeze_panes_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_freeze_panes.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/row_height/datagrid_row_height.dart"
               }
             ]
           },
@@ -2685,7 +2688,7 @@
                 "type": "sample",
                 "title": "Row Height",
                 "key": "row_height_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_row_height.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/row_height/datagrid_row_height.dart"
               }
             ]
           },
@@ -2734,7 +2737,7 @@
                 "type": "sample",
                 "title": "Pull To Refresh",
                 "key": "pull_to_refresh_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_pull_to_refresh.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/pull_to_refresh/datagrid_pull_to_refresh.dart"
               }
             ]
           },
@@ -2763,7 +2766,7 @@
                 "title": "Paging",
                 "key": "paging_datagrid",
                 "status": "Updated",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_paging.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/paging/datagrid_paging.dart"
               }
             ]
           },
@@ -2775,7 +2778,7 @@
                 "type": "sample",
                 "title": "Swiping",
                 "key": "swiping_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_swiping.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/swiping/datagrid_swiping.dart"
               }
             ]
           },
@@ -2787,7 +2790,20 @@
                 "type": "sample",
                 "title": "Real-Time Update",
                 "key": "real_time_update_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_real_time_update.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/real_time_update/datagrid_real_time_update.dart"
+              }
+            ]
+          },
+          {
+            "type": "child",
+            "title": "Exporting",
+            "subItems": [
+              {
+                "type": "sample",
+                "status": "New",
+                "title": "Exporting",
+                "key": "exporting_datagrid",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/exporting/datagrid_exporting.dart"
               }
             ]
           }
