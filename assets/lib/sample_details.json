@@ -184,6 +184,8 @@
                     "title": "Line zone",
                     "key": "line_shader",
                     "status": "New",
+                    "sourceLink": "https://www.statista.com/statistics/504400/volume-of-precipitation-in-the-us/",
+                    "sourceText": "www.statista.com",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/line/line_zone.dart",
                     "description": "This sample is achieved by filling the linear gradient to the line series. Gradient’s color stops are formed based on the zone’s (segments) start and end values. ‘onCreateShader’ callback in ‘SfCartesianChart’ is used to achieve this scenario."
                   },
@@ -327,6 +329,8 @@
                     "title": "Area zone",
                     "key": "area_shader",
                     "status": "New",
+                    "sourceLink": "https://www.statista.com/statistics/513628/monthly-average-temperature-in-the-us-fahrenheit/",
+                    "sourceText": "www.statista.com",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/area/area_zone.dart",
                     "description": "This sample is achieved by filling the linear gradient to the area series. Gradient’s color stops are formed based on the zone’s (segments) start and end values. ‘onCreateShader’ callback in ‘SfCartesianChart’ is used to achieve this scenario."
                   },
@@ -1517,6 +1521,7 @@
         "title": "Circular Charts",
         "description": "Visualize the data using pie, doughnut, and radial bar charts",
         "image": "images/circle_series.png",
+        "status": "Updated",
         "controlId": 2,
         "subItems": [
           {
@@ -1554,9 +1559,16 @@
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/pie/pie_with_grouping.dart"
                   },
                   {
-                    "title": "Smart labels",
-                    "key": "pie_with_smart_labels",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/pie/pie_with_smart_labels.dart",
+                    "title": "Data labels",
+                    "key": "pie_with_data_labels",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/pie/pie_with_data_labels.dart",
+                    "needsPropertyPanel": true
+                  },
+                  {
+                    "title": "Smart data labels",
+                    "key": "pie_with_smart_data_labels",
+                    "status": "New",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/pie/pie_with_smart_data_labels.dart",
                     "needsPropertyPanel": true
                   },
                   {
@@ -2841,6 +2853,7 @@
           {
             "type": "sample",
             "title": "Recurrence",
+            "status": "Updated",
             "key": "recurrence_calendar",
             "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/calendar/recurrence.dart"
           },
@@ -2933,6 +2946,7 @@
           {
             "type": "sample",
             "title": "Blackout Dates",
+            "status": "Updated",
             "key": "blackout_picker",
             "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/date_picker/blackout_date_picker.dart"
           },
