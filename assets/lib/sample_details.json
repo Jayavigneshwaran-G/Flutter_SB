@@ -467,6 +467,20 @@
               },
               {
                 "type": "child",
+                "title": "Error Bar",
+                "displayType": "tab",
+                "subItems": [
+                  {
+                    "title": "Error Bar",
+                    "key": "error_bar",
+                    "status": "New",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/error_bar.dart",
+                    "needsPropertyPanel": true
+                  }
+                ]
+              },
+              {
+                "type": "child",
                 "title": "Step Line",
                 "displayType": "card",
                 "subItems": [
@@ -696,20 +710,6 @@
                     "title": "Vertical waterfall chart",
                     "key": "vertical_water_fall",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/waterfall/vertical_waterfall.dart"
-                  }
-                ]
-              },
-              {
-                "type": "child",
-                "title": "Error Bar",
-                "displayType": "tab",
-                "subItems": [
-                  {
-                    "title": "Error Bar",
-                    "key": "error_bar",
-                    "status": "New",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/error_bar.dart",
-                    "needsPropertyPanel": true
                   }
                 ]
               }
@@ -967,12 +967,10 @@
                 "displayType": "card",
                 "subItems": [
                   {
-                    "title": "Gradient comparison",
+                    "title": "Gradient based on values",
                     "key": "gradient_comparison",
                     "status": "New",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/gradients/comparison_using_gradient.dart",
-                    "sourceLink" : "https://en.climate-data.org/europe/united-kingdom/england/london-1/",
-                    "sourceText": "en.climate-data.org",
                     "description": "This sample is achieved by filling all the data points in column series with a linear gradient which is created to the size of the chart’s plot area. ‘onCreateShader’ callback in ‘SfCartesianChart’ is used to achieve this scenario"
                   },
                   {
@@ -1569,7 +1567,9 @@
                     "key": "pie_with_smart_data_labels",
                     "status": "New",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/pie/pie_with_smart_data_labels.dart",
-                    "needsPropertyPanel": true
+                    "needsPropertyPanel": true,
+                    "sourceLink" : "https://www.insidethegames.biz/games/7/medals",
+                    "sourceText": "insidethegames.biz"
                   },
                   {
                     "title": "Gradient fill",
@@ -2219,7 +2219,7 @@
                 "key": "drag_behavior",
                 "status": "New",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/linear_gauge/pointers/drag_behavior.dart",
-                "description": ""
+                "description": "Free mode is the default mode and markers move back and forth freely on a gauge. When set to constrained mode, it cannot move beyond the markers on both sides."
               }
             ]
           },
@@ -2529,7 +2529,6 @@
         "description": "Displays large amounts of data with different data types in a tabular view",
         "image": "images/Datagrid.png",
         "displayType": "tab",
-        "isBeta": true,
         "controlId": 1,
         "subItems": [
           {
@@ -2688,7 +2687,7 @@
                 "type": "sample",
                 "title": "Freeze Panes",
                 "key": "freeze_panes_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/row_height/datagrid_row_height.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/freeze_panes/datagrid_freeze_panes.dart"
               }
             ]
           },
@@ -2839,7 +2838,6 @@
           {
             "type": "sample",
             "title": "Getting Started",
-            "status": "Updated",
             "key": "getting_started_calendar",
             "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/calendar/getting_started.dart",
             "needsPropertyPanel": true
@@ -2853,9 +2851,26 @@
           {
             "type": "sample",
             "title": "Recurrence",
-            "status": "Updated",
             "key": "recurrence_calendar",
             "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/calendar/recurrence.dart"
+          },
+          {
+            "type": "sample",
+            "title": "Drag and Drop",
+            "status": "New",
+            "key": "drag_and_drop_calendar",
+            "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/calendar/drag_and_drop_calendar.dart"
+          },
+          {
+            "type": "sample",
+            "title": "Resize",
+            "status": "New",
+            "platformsToHide": [
+              "android",
+              "iOS"
+            ],
+            "key": "resizing_calendar",
+            "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/calendar/resizing_calendar.dart"
           },
           {
             "type": "sample",
@@ -2865,7 +2880,7 @@
           },
           {
             "type": "sample",
-            "title": "Timeline views",
+            "title": "Timeline Views",
             "key": "timeline_views_calendar",
             "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/calendar/timeline_views.dart"
           },
@@ -3092,7 +3107,6 @@
         "displayType": "tab",
         "isBeta": true,
         "controlId": 2,
-        "status": "Updated",
         "subItems": [
           {
             "type": "sample",
@@ -3122,7 +3136,6 @@
             "type": "sample",
             "title": "Attendance Tracker",
             "key": "attendance_tracker",
-            "status": "Updated",
             "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/xlsio/attendance_tracker/attendance_tracker.dart"
           }
         ]
