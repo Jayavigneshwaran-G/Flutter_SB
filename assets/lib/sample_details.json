@@ -163,7 +163,7 @@
                     "title": "Default line chart",
                     "key": "default_line_chart",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/line/default_line_chart.dart",
-                    "description": "This sample demonstrates the default line chart. Marker, tooltip and legend are enabled in this sample. Tap the marker to view information about that data point in a tooltip."
+                    "description": "In this example, you can see how to render and configure the line type charts. Line type charts are used to represent time-dependent data, showing trends in data at equal intervals. You can use <highlight> dashArray, width, fill <endHighlight> properties to customize the line. <highlight> Marker <endHighlight> and <highlight> dataLabel <endHighlight> are used to represent individual data and its value. Tooltip is enabled in this example, to see the tooltip in action, hover a point or tap on a point in touch enabled devices. \n \n <highlight> \u2022 Injecting Module <endHighlight> \n \nChart component features are segregated into individual feature-wise modules. To use line series, we need to inject LineSeries module using <highlight> Chart.Inject(LineSeries) <endHighlight> method. More information on the line series can be found in this <highlight> documentation section(*https://help.syncfusion.com/flutter/cartesian-charts/chart-types/line-chart*) <endHighlight> ."
                   },
                   {
                     "type": "sample",
@@ -187,7 +187,7 @@
                     "sourceLink": "https://www.statista.com/statistics/504400/volume-of-precipitation-in-the-us/",
                     "sourceText": "www.statista.com",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/line/line_zone.dart",
-                    "description": "This sample is achieved by filling the linear gradient to the line series. Gradient’s color stops are formed based on the zone’s (segments) start and end values. ‘onCreateShader’ callback in ‘SfCartesianChart’ is used to achieve this scenario."
+                    "description": "This sample is achieved by filling the linear gradient to the line series. Gradient’s color stops are formed based on the zone’s (segments) start and end values. This scenario is achieved by using the ‘onCreateShader’ callback in ‘SfCartesianChart’."
                   },
                   {
                     "type": "sample",
@@ -332,7 +332,7 @@
                     "sourceLink": "https://www.statista.com/statistics/513628/monthly-average-temperature-in-the-us-fahrenheit/",
                     "sourceText": "www.statista.com",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/chart_types/area/area_zone.dart",
-                    "description": "This sample is achieved by filling the linear gradient to the area series. Gradient’s color stops are formed based on the zone’s (segments) start and end values. ‘onCreateShader’ callback in ‘SfCartesianChart’ is used to achieve this scenario."
+                    "description": "This sample is achieved by filling the linear gradient to the area series. Gradient’s color stops are formed based on the zone’s (segments) start and end values. This scenario is achieved by using the ‘onCreateShader’ callback in ‘SfCartesianChart’."
                   },
                   {
                     "title": "Modified axis base",
@@ -971,7 +971,7 @@
                     "key": "gradient_comparison",
                     "status": "New",
                     "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/cartesian_charts/series_features/gradients/comparison_using_gradient.dart",
-                    "description": "This sample is achieved by filling all the data points in column series with a linear gradient which is created to the size of the chart’s plot area. ‘onCreateShader’ callback in ‘SfCartesianChart’ is used to achieve this scenario"
+                    "description": "This sample is achieved by filling all the data points in column series with a linear gradient that is proportional to the size of the chart’s plot area. This scenario is achieved by using the ‘onCreateShader’ callback in ‘SfCartesianChart’."
                   },
                   {
                     "title": "Horizontal gradient",
@@ -1566,7 +1566,7 @@
                     "title": "Smart data labels",
                     "key": "pie_with_smart_data_labels",
                     "status": "New",
-                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/pie/pie_with_smart_data_labels.dart",
+                    "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/chart/circular_charts/chart_types/pie/pie_with_smart_data_label.dart",
                     "needsPropertyPanel": true,
                     "sourceLink" : "https://www.insidethegames.biz/games/7/medals",
                     "sourceText": "insidethegames.biz"
@@ -2298,15 +2298,14 @@
         "description": "Easily visualize data over a geographical area",
         "image": "images/map.png",
         "displayType": "tab",
-        "status": "Updated",
         "controlId": 3,
+        "status": "Updated",
         "isBeta": true,
         "subItems": [
           {
             "type": "child",
             "title": "Shape Layer",
             "displayType": "tab",
-            "status": "Updated",
             "subItems": [
               {
                 "type": "sample",
@@ -2369,7 +2368,6 @@
           {
             "type": "child",
             "title": "Tile Layer",
-            "status": "New",
             "displayType": "tab",
             "subItems": [
               {
@@ -2383,14 +2381,6 @@
                 "title": "Bing Maps",
                 "key": "bing_map",
                 "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/bing_map/bing_map.dart"
-              },
-              {
-                "type": "sample",
-                "title": "Fit bounds",
-                "key": "fit_bounds",
-                "status": "New",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/fit_bounds/fit_bounds.dart",
-                "needsPropertyPanel": true
               },
               {
                 "type": "sample",
@@ -2416,9 +2406,17 @@
               },
               {
                 "type": "sample",
+                "title": "Fit to Bounds",
+                "key": "fit_bounds",
                 "status": "New",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/tree/master/lib/samples/maps/tile_layer/fit_bounds/fit_bounds.dart",
+                "needsPropertyPanel": true
+              },
+              {
+                "type": "sample",
                 "title": "Crosshair",
                 "key": "crosshair",
+                "status": "New",
                 "platformsToHide": [
                   "android",
                   "iOS"
@@ -2539,7 +2537,7 @@
                 "type": "sample",
                 "title": "Getting Started",
                 "key": "getting_started_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/getting_started/datagrid_getting_started.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_getting_started.dart"
               }
             ]
           },
@@ -2576,7 +2574,8 @@
                 "title": "Column Sizing",
                 "key": "column_sizing_datagrid",
                 "needsPropertyPanel": true,
-                "status": "New"
+                "status": "New",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/columns/datagrid_column_sizing.dart"
               },
               {
                 "type": "sample",
@@ -2595,7 +2594,8 @@
                 "type": "sample",
                 "title": "Checkbox Column",
                 "key": "checkbox_selection_datagrid",
-                "status": "New"
+                "status": "New",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/columns/datagrid_checkbox_selection.dart"
               }
             ]
           },
@@ -2608,7 +2608,7 @@
                 "title": "Editing",
                 "key": "editing_datagrid",
                 "needsPropertyPanel": true,
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/editing/datagrid_editing.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_editing.dart"
               }
             ]
           },
@@ -2629,7 +2629,8 @@
                 "title": "Custom Sorting",
                 "description": "This sample demonstrates custom sorting in DataGrid. In this sample, Customer Name column is sorted based on the length of a cell value.",
                 "key": "custom_sorting_datagrid",
-                "status": "New"
+                "status": "New",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/sorting/datagrid_custom_sorting.dart"
               }
             ]
           },
@@ -2641,13 +2642,14 @@
                 "type": "sample",
                 "title": "Selection",
                 "key": "selection_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/selection/datagrid_selection.dart",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_selection.dart",
                 "needsPropertyPanel": true
               },
               {
                 "title": "Checkbox Selection",
                 "key": "checkbox_selection_datagrid",
-                "status": "New"
+                "status": "New",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/columns/datagrid_checkbox_selection.dart"
               }
             ]
           },
@@ -2660,7 +2662,7 @@
                 "status": "New",
                 "title": "Summaries",
                 "key": "table_summary_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/summaries/datagrid_table_summary.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_table_summary.dart"
               }
             ]
           },
@@ -2674,7 +2676,7 @@
                 "status": "New",
                 "key": "column_resizing_datagrid",
                 "description": "This sample demonstrates how to resize the columns. In the Desktop platforms, resize columns by clicking and dragging the right (left in RTL mode) border of a column header. In the mobile platforms, when the column is long pressed the indicator will be displayed at the right border of a column header, Then, tap and drag the indicator to resize columns.",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/columns/datagrid_column_resizing.dart",
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_column_resizing.dart",
                 "needsPropertyPanel": true
               }
             ]
@@ -2687,7 +2689,7 @@
                 "type": "sample",
                 "title": "Freeze Panes",
                 "key": "freeze_panes_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/freeze_panes/datagrid_freeze_panes.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_freeze_panes.dart"
               }
             ]
           },
@@ -2699,7 +2701,7 @@
                 "type": "sample",
                 "title": "Row Height",
                 "key": "row_height_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/row_height/datagrid_row_height.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_row_height.dart"
               }
             ]
           },
@@ -2748,7 +2750,7 @@
                 "type": "sample",
                 "title": "Pull To Refresh",
                 "key": "pull_to_refresh_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/pull_to_refresh/datagrid_pull_to_refresh.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_pull_to_refresh.dart"
               }
             ]
           },
@@ -2777,7 +2779,7 @@
                 "title": "Paging",
                 "key": "paging_datagrid",
                 "status": "Updated",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/paging/datagrid_paging.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_paging.dart"
               }
             ]
           },
@@ -2789,7 +2791,7 @@
                 "type": "sample",
                 "title": "Swiping",
                 "key": "swiping_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/swiping/datagrid_swiping.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_swiping.dart"
               }
             ]
           },
@@ -2801,7 +2803,7 @@
                 "type": "sample",
                 "title": "Real-Time Update",
                 "key": "real_time_update_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/real_time_update/datagrid_real_time_update.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_real_time_update.dart"
               }
             ]
           },
@@ -2814,7 +2816,7 @@
                 "status": "New",
                 "title": "Exporting",
                 "key": "exporting_datagrid",
-                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/exporting/datagrid_exporting.dart"
+                "codeLink": "https://github.com/syncfusion/flutter-examples/blob/master/lib/samples/datagrid/datagrid_exporting.dart"
               }
             ]
           }
